@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataiku runtime data (never commit the DSS data directory)
+dss_data/
+DATA_DIR/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+.cortex/
